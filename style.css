@@ -1,1 +1,49 @@
-/* initialisation du CSS
+/* initialisation du CSS */
+
+.my-soul-regular {
+  font-family: "My Soul", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+    background-image: url('/asset/background.jpeg');
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 10px;
+    font-family: 'My Soul', cursive;
+    font-size: 60px;
+    color: rgb(14, 13, 13);
+    text-align: center;
+}
+
+#start-button {
+    margin-left: 44%;
+    background-color: antiquewhite;
+    border: #000000 4px solid;
+    border-radius: 20%;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#start-button:hover {
+    background-color:rgb(114, 69, 69)
+}
+
+
+#game-container {
+    background-image: url('/asset/télécharger.jpg');
+    background-size: cover;
+    position: relative;
+    left: 37%;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: antiquewhite;
+    border: #f8f8f8 2px solid;
+    border-radius: 10%;
+}
