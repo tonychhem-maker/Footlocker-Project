@@ -1,1 +1,5 @@
-/* initialisation du CSS
+/* initialisation du CSS*/
+/* importation de la police de caractère depuis les téléchargements*/
+body {
+    font-family: 'MADE Soulmaze PERSONAL USE', sans-serif;
+}
