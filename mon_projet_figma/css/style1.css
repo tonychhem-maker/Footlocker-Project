@@ -1,0 +1,72 @@
+
+@font-face {
+    font-family: 'MADE Soulmaze PERSONAL USE';
+    src: url('/font/MADE Soulmaze PERSONAL USE.otf') format('truetype');
+    src: url('/font/MADE\ Soulmaze\ Brush\ PERSONAL\ USE..otf') format('truetype');
+    src: url('/font/MADE Soulmaze Italic PERSONAL USE.otf ') format('truetype');
+    src: url('/font/MADE Soulmaze Outline Italic PERSONAL USE.otf') format('truetype');
+    src: url('/font/MADE Soulmaze Outline PERSONAL USE.otf') format('truetype');
+}
+.nunito-200 {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.my-soul-regular {
+  font-family: "My Soul", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body {
+    background-image: url('/images/l_image_de_fond.jpg');
+    background-repeat : no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    background-position: center; 
+    overflow-y: hidden;
+}
+
+h1 {
+    margin-top: 75px;
+    font-family: 'MADE Soulmaze Brush', sans-serif;
+    font-size: 60px;
+    color: rgb(14, 13, 13);
+    text-align: center;
+}
+
+#kick-button {
+    margin-top: 30px;
+    width: 300px;
+    height: 60px;
+    margin-left: 39%;
+    background-color: antiquewhite;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius:  3vh;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+#kick-button:hover {
+    transform: scale(1.1);
+    box-shadow: #000000 3px 20px 60px;
+}
+
+#game-container {
+    background-image: url('/images/télécharger.jpg');
+    background-size: cover;
+    position: relative;
+    left: 37%;
+    width: 350px;
+    height: 300px;
+    border-radius: 12vh;
+    border-color: antiquewhite;
+    border-width: 1px;
+    border-style: solid;
+}
