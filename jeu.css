@@ -1,3 +1,4 @@
+
 body {
     background-image: url('/images/l_image_de_fond.jpg');
     background-size: cover;
@@ -41,3 +42,33 @@ h1{
     transform: scale(1.1);
     box-shadow: #ffffff 1px 10px 30px;
 }
+
+@keyframes glow {
+    0% {
+        filter: brightness(1);
+    }
+    50% {
+        filter: brightness(1.5);
+    }
+    100% {
+        filter: brightness(1);
+    }
+}
+
+#carte_win_1, #carte_win_2 {
+    animation: glow 2s infinite;
+}
+
+
+@keyframes rotate {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+#carte_win_1:hover, #carte_win_2:hover {
+    animation: glow 2s infinite, rotate 2s infinite;
+}
+
