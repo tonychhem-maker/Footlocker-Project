@@ -22,7 +22,7 @@
 
 
 body {
-    background-image: url('/images/l_image_de_fond.jpg');
+    background-image: url('/mon_projet_figma/images/l_image_de_fond.jpg');
     background-repeat : no-repeat;
     background-size: cover;
     min-height: 90vh;
@@ -59,7 +59,7 @@ h1 {
 }
 
 #game-container {
-    background-image: url('/images/télécharger.jpg');
+    background-image: url('/mon_projet_figma/images/télécharger.jpg');
     background-size: cover;
     position: relative;
     left: 37%;

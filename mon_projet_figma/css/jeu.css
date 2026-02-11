@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'MADE Soulmaze PERSONAL USE';
     src: url('/font/MADE Soulmaze PERSONAL USE.otf') format('truetype');
@@ -6,6 +7,7 @@
     src: url('/font/MADE Soulmaze Outline Italic PERSONAL USE.otf') format('truetype');
     src: url('/font/MADE Soulmaze Outline PERSONAL USE.otf') format('truetype');
 }
+
 .nunito-200 {
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
@@ -13,59 +15,86 @@
   font-style: normal;
 }
 
-.my-soul-regular {
-  font-family: "My Soul", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
-
 body {
-    background-image: url('/images/l_image_de_fond.jpg');
-    background-repeat : no-repeat;
+    background-image: url('/mon_projet_figma/images/l_image_de_fond.jpg');
     background-size: cover;
-    min-height: 90vh;
-    background-position: center; 
     overflow-y: hidden;
 }
 
-h1 {
-    margin-top: 75px;
+h1{
+    margin-top: 35px;
+    text-align: center;
     font-family: 'MADE Soulmaze Brush', sans-serif;
-    font-size: 60px;
-    color: rgb(14, 13, 13);
-    text-align: center;
+    font-size: 50px;
+    text-shadow: #ffffff 1px 1px 2px;
 }
-
-#kick-button {
-    margin-top: 30px;
-    width: 300px;
-    height: 60px;
-    margin-left: 39%;
-    background-color: antiquewhite;
-    border-color: #000000;
-    border-width: 1px;
-    border-style: solid;
-    border-radius:  3vh;
+h2 {
     font-family: 'Nunito', sans-serif;
+    color: #000000;
     text-align: center;
-    font-size: 25px;
+    margin-top: 20px;
+}
+h3 {
+    font-family: 'Nunito', sans-serif;
+    color: #000000;
+}
+#cartes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
 }
 
-#kick-button:hover {
-    transform: scale(1.1);
-    box-shadow: #000000 3px 20px 60px;
+#cartes_bas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
 }
 
-#game-container {
-    background-image: url('/images/télécharger.jpg');
-    background-size: cover;
-    position: relative;
-    left: 37%;
-    width: 350px;
-    height: 300px;
-    border-radius: 12vh;
-    border-color: antiquewhite;
-    border-width: 1px;
+#winner {
+    height: 340px;
+    width: 266px;
+    background-color: #6B5050;
+    opacity: 0.9;
+    border-color: #ffffff; 
+    border-width: 3px;
     border-style: solid;
+    border-radius: 5vh;
 }
+
+#carte1:hover, #carte2:hover, #carte3:hover, #carte4:hover, #carte5:hover, #carte6:hover {
+    border-radius: 2vh;
+    transform: scale(1.1);
+    box-shadow: #ffffff 1px 10px 30px;
+}
+
+@keyframes glow {
+    0% {
+        filter: brightness(1);
+    }
+    50% {
+        filter: brightness(1.5);
+    }
+    100% {
+        filter: brightness(1);
+    }
+}
+
+#carte_win_1, #carte_win_2 {
+    animation: glow 2s infinite;
+}
+
+
+@keyframes rotate {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+#carte_win_1:hover, #carte_win_2:hover {
+    animation: glow 2s infinite, rotate 2s infinite;
+}
+

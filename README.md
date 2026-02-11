@@ -1,1 +1,2 @@
 Use the reposite to make the figma design a real website with animations
+noter que l'ordre des pages n'est pas celui de base, pour accéder au formulaire il faut donc cliqué sur l'image de carte en haut tout à gauche sur la second page !
