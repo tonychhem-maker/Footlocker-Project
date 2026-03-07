@@ -1,0 +1,66 @@
+body {
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.card {
+    width: 350px;
+    height: 600px;
+    background-color: black;
+    background-image: url('../images/fond.jpg.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    position: relative;
+    border: 1px solid #333;
+}
+
+.title {
+    color: #a31d1d;
+    font-size: 3rem;
+    margin: 0;
+    font-style: italic;
+    text-align: center;
+}
+
+.subtitle {
+    color: white;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.subtitle span { color: #a31d1d; }
+
+.sneaker-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.sneaker-img {
+    width: 100%;
+    z-index: 2;
+    /* Effet d'ombre pour détacher la chaussure du fond */
+    filter: drop-shadow(0 15px 15px rgba(0,0,0,0.9));
+}
+
+.btn-rejouer {
+    background-color: white;
+    color: #a31d1d;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
