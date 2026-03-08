@@ -1,98 +1,12 @@
-/* initialisation du CSS*/
+/* initialisation du CSS
 /* importation de la police de caractère depuis les téléchargements*/
-@media (min-width: 768px) {
-    .form-container {
-        max-width: 100px;
-    }}
 body {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #3b3b3b;
-    overflow: hidden;
-    width: 100%;
-    }
-
-form {
-    display: flex;
-    flex-direction: column; 
-    justify-content: space-between;
-    width: 100%;
-    height: 100%;
-    padding: 40px;
-    box-sizing: border-box;
-}
-.form-group {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
-}
-label {
-    flex: 1; 
-    text-align: left;
-}
-input {
-    flex: 1; 
-    border-radius: 50px; 
-    padding: 15px; ;
-    border: none;
-    margin-left: 50px;
-    box-sizing: border-box;
-    max-width: 200px; 
-    text-align: center;    
-}
-.footer-form {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    width: 100%;
-    margin-top: 20px;
-}
-
-.logo {
-   display: flex;
-   align-items: center;
-   
-}
-
-.logo img {
-    width: 70px;
-    height: auto;
-    margin-right: 20px;
-    
-}
-h1 {
-    font-size: 1,5rem;
-    margin-bottom: 0;
-    text-transform: uppercase;
-
-}
-
-.btn-valider {
-    background-color: white;
-    border-radius: 25px;
-    padding: 12px 45px;
-    border: 3px solid black;
-    box-shadow: 8px 8px 0px black; 
-    font-weight: bold;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-right: 30px;
-    margin-bottom: 20px;
-    transition: transform 0.1s;
-    align-self: center;
+    font-family: 'MADE Soulmaze PERSONAL USE', sans-serif;
 }
 .btn-valider:active {
     transform: translate(4px, 4px); /* S'enfonce quand on clique */
     box-shadow: 2px 2px 0px black;
 }
-
-
 .sneaker-img {
      width: 70px;
      height: auto;
